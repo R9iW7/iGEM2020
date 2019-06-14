@@ -1,0 +1,37 @@
+style.css
+line 57 --> color small rectangle below bar
+line 85 border simple
+
+for clear text and interactive backgroung
+.navbar .nav > li > a { --> line 78
+    text-transform:uppercase;
+    line-height: auto;
+    vertical-align: middle;
+    margin:10px 3px;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    border: 1px solid #fff;
+    box-shadow: none;
+    font-size:15px;
+    text-shadow: none;
+    color: #181a1c;
+    transition: border-color 1s ease;
+}
+.navbar .nav > li:hover> a, .navbar .nav > .active > a, .navbar .nav > .active > a:hover, .navbar .nav > .active > a:focus {
+    border: 1px solid #5186ba;
+    color: #181a1c; --> this change color of text to black and still seen it
+    background-color: #fff;
+    transition: border-color 1s ease;
+	
+highlighted-box --> box of invierte or hiring us line 135
+
+line 152 circle border
+line 179 red triangle
+line 251 color for the thumbnail (border of photos and extras)
+line 286 change headline of thumbnail (yellow --> green)
+line 332 social icons of who we are thumbnails
+line 362 change from black to the color i want en "What we do?", who we are?, what client say?,
+line 377 change yellow background-color to my color in "Have you seen..?", phrase, Price and Contact us
+line 386 (third section) has an image, refers to our clients and Newsletter
+	background: #a4f0f4 url(../images/brand-bg.png) no-repeat center;
+line 826 change scrollpup color
